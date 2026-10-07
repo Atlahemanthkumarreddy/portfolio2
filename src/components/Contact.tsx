@@ -15,7 +15,7 @@ export default function Contact() {
   ];
 
   return (
-    <Section id="contact" number="05" title="Contact">
+    <Section id="contact" number="06" title="Contact">
       <Reveal>
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-violet-600 to-pink-500 bg-[length:200%_200%] p-8 text-white shadow-2xl shadow-violet-300/50 animate-gradient sm:p-10">
           <div aria-hidden className="absolute -right-10 -top-10 h-48 w-48 rounded-full bg-white/10 blur-2xl animate-blob" />

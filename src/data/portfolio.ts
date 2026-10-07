@@ -47,9 +47,9 @@ export const experience = [
     ],
   },
   {
-    company: "Slash",
+    company: "Slash Mark",
     role: "Python Intern",
-    period: "Nov 2023 – Feb 2024",
+    period: "Jan 2024 – Apr 2024",
     points: [
       "Built Python applications, including a voice assistant and a chatbot.",
       "Used OpenCV for visual recognition and deployed to Unix-based environments.",
@@ -127,4 +127,38 @@ export const education = [
 export const certifications = [
   { name: "Azure AI Fundamentals", issuer: "Microsoft" },
   { name: "Cyber Security", issuer: "EduSkills" },
+];
+
+// Certificate images shown in the Certificates section. Put image files in /public/certificates.
+// Leave image empty to show a placeholder card until you add the file.
+export const certificates: {
+  title: string;
+  issuer: string;
+  date: string;
+  details: string;
+  image: string;
+  verify?: { label: string; url: string };
+}[] = [
+  {
+    title: "Azure AI Fundamentals",
+    issuer: "Microsoft",
+    date: "Oct 21, 2022",
+    details: "Microsoft Certified: Fundamentals. Core AI and machine learning concepts on Microsoft Azure.",
+    image: "/certificates/microsoft-azure-ai-fundamentals.jpg",
+    verify: { label: "Verify · nX9D-uTCb", url: "https://verify.certiport.com" },
+  },
+  {
+    title: "Python Internship",
+    issuer: "Slash Mark × AICTE",
+    date: "Jan 10 – Apr 10, 2024",
+    details: "Internship completion certificate for a Python internship run with AICTE. Intern ID SM160644.",
+    image: "/certificates/slash-mark-python-internship.jpg",
+  },
+  {
+    title: "Web Developer Internship",
+    issuer: "Skill Garage × AICTE",
+    date: "12 weeks",
+    details: "Internship completion certificate for 12 weeks as a Web Developer, run with AICTE.",
+    image: "",
+  },
 ];
